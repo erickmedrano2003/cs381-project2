@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+.container img {
+    height: auto;
+    width: 100px;
+}
+.logo {
+    height: auto;
+    width: 120px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;   
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 50px 0;
+    color: black
+}
+.section1 .container {
+    max-width: 1400px;
+    
+}
+.section1 h1 {
+    font-size: 40px;
+}
+.section1 h2 {
+    font-size: 15px;
+}
+.section2 {
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: black;
+    
+}
+.section2 .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+    width: 1000px;
+
+}
+.section2 .container div {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.section2 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.section2 h2 {
+    font-size: 20px;
+}
+.assignments {
+    align-self: flex-end;
+}
+
+.profile {
+    align-self: flex-end;
+}
+.section2 .container .getstarted {
+    background-color: white;
+    border: 2px solid black;
+    text-shadow: 1px 1px gray;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 33.3px;
+    align-self: center;
+    
+}
+footer {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    font-size: 10px;
+}
+.section2 {
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: black;
+    
+}
+.section2-2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: black;
+    height: 1650px;
+    
+}
+.section2-2 .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+    width: 1000px;
+
+}
+.section2-2 .container div {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.section2-2 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.section2-2 h2 {
+    font-size: 20px;
+}
+.section2-3 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: black;
+    height: 1700px;
+    
+}
+.section2-3 .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+    width: 1000px;
+
+}
+.section2-3 .container div {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.section2-3 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.section2-3 h2 {
+    font-size: 20px;
+}
+.section2-4 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: black;
+    height: 1155px;
+    
+}
+.section2-4 .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
+    width: 1000px;
+
+}
+.section2-4 .container div {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: white;
+    width: 1000px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.section2-4 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.section2-4 h2 {
+    font-size: 20px;
+}
